@@ -8,7 +8,7 @@ public class Execution {
     public static void main(String[] args) throws IOException {
 
         List<String> var = Dictionary.readDictionary();
-        Dictionary.findOptions("play", var).stream().distinct().forEach(System.out::println);
+        Dictionary.findOptions("array", var).stream().distinct().forEach(System.out::println);
     }
 
 }

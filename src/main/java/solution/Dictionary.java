@@ -44,7 +44,7 @@ public class Dictionary {
     }
 
     /**
-     * Encode a word in to a freqceny array. int[0] = #a's, int[1] = #b's etc.
+     * Encode a word in to a frequencie array. int[0] = #a's, int[1] = #b's etc.
      *
      * @param word location and word count
      * @return letter array
